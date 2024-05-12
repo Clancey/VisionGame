@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB7A9BBC2BEF047800942549 /* Godot-StarterPack in Resources */ = {isa = PBXBuildFile; fileRef = CB7A9BBB2BEF047800942549 /* Godot-StarterPack */; };
 		DE2E63972B718B10003F7878 /* GodotVision in Frameworks */ = {isa = PBXBuildFile; productRef = DE2E63962B718B10003F7878 /* GodotVision */; };
 		DE54EAB42B3C75D500594A05 /* GodotVisionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54EAB32B3C75D500594A05 /* GodotVisionExample.swift */; };
 		DE54EAB62B3C75D500594A05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54EAB52B3C75D500594A05 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB7A9BBB2BEF047800942549 /* Godot-StarterPack */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Godot-StarterPack"; sourceTree = "<group>"; };
 		DE54EAAC2B3C75D500594A05 /* GodotVisionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodotVisionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE54EAB32B3C75D500594A05 /* GodotVisionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodotVisionExample.swift; sourceTree = "<group>"; };
 		DE54EAB52B3C75D500594A05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		DE54EAA32B3C75D500594A05 = {
 			isa = PBXGroup;
 			children = (
+				CB7A9BBB2BEF047800942549 /* Godot-StarterPack */,
 				DEF363EC2B57F443005E175D /* Godot_Project */,
 				DE54EAAE2B3C75D500594A05 /* GodotVisionExample */,
 				DE54EAAD2B3C75D500594A05 /* Products */,
@@ -144,6 +147,7 @@
 				DEF363ED2B57F443005E175D /* Godot_Project in Resources */,
 				DE54EABD2B3C75D600594A05 /* Preview Assets.xcassets in Resources */,
 				DE54EABA2B3C75D600594A05 /* Assets.xcassets in Resources */,
+				CB7A9BBC2BEF047800942549 /* Godot-StarterPack in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

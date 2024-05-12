@@ -11,7 +11,7 @@ struct ContentView: View {
         GeometryReader3D { (geometry: GeometryProxy3D) in
             RealityView { content, attachments in
                 
-                let pathToGodotProject = "Godot_Project" // The path to the folder containing the "project.godot" you wish Godot to load.
+                let pathToGodotProject = "Godot-StarterPack" // The path to the folder containing the "project.godot" you wish Godot to load.
                 
                 // Initialize Godot
                 let rkEntityGodotRoot = godotVision.setupRealityKitScene(content,
@@ -44,11 +44,11 @@ struct ContentView: View {
                         }
                         
                         // Buttons for loading example scenes.
-                        sceneButton(label: "Hello", resourcePath: "res://examples/hello/example_godot_vision_scene.tscn")
-                        sceneButton(label: "Physics", resourcePath: "res://examples/physics_toy/physics_toy.tscn")
+                        sceneButton(label: "Hello", resourcePath: "res://scenes/GameRoot.tscn")
+                        //sceneButton(label: "Physics", resourcePath: "res://examples/physics_toy/physics_toy.tscn")
                         //sceneButton(label: "Materials", resourcePath: "res://tests/materials/materials.tscn")
-                        sceneButton(label: "Skeletons", resourcePath: "res://examples/rigged_models/example_rigged_models.tscn")
-                        sceneButton(label: "CSG", resourcePath: "res://examples/csg/csg.tscn")
+                        //sceneButton(label: "Skeletons", resourcePath: "res://examples/rigged_models/example_rigged_models.tscn")
+                        //sceneButton(label: "CSG", resourcePath: "res://examples/csg/csg.tscn")
                         
                     }.padding(36).frame(width: 700).glassBackgroundEffect()
                 }

@@ -1,0 +1,4 @@
+[submodule "Godot-StarterPack"]
+	path = Godot-StarterPack
+	url = git@github.com:Clancey/Godot-StarterPack.git
+	branch = vision
